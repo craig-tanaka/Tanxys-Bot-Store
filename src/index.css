@@ -1,13 +1,41 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body{
+  background-color: #0d2c35;
+  color: #fff;
+  font-family: 'Nunito Sans', sans-serif;
 }
+
+
+/* Header _______________________________________________________*/
+.header{
+  font-family: Halant, serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 4rem;
+}
+.signup-btn{
+  font-family: 'Nunito Sans', sans-serif;
+  height: max-content;
+  padding: .75rem 1.25rem;
+  border-radius: 1rem;
+  border-width: 1px;
+  background-color: transparent;
+  color: #F7F6F2;
+}
+  .signup-btn:hover{
+    cursor: pointer;
+    background-color: #F7F6F2;
+    color: #0d2c35;
+  }
+  .signup-btn:active{
+    box-shadow: inset 1px 1px 2px 1px #0d2c3567;
+  }
+
+
