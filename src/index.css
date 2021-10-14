@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;900&display=swap');
 
 *{
   margin: 0;
@@ -15,11 +14,10 @@ html, body{
 
 /* Nav _______________________________________________________*/
 nav{
-  font-family: Halant, serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: .75rem;
 }
 .signup-btn{
   font-family: 'Nunito Sans', sans-serif;
@@ -55,3 +53,57 @@ nav{
   .banner-text-body {
     text-align: justify;
   }
+/* header _______________________________________________________*/
+
+
+
+/* Testimonials _______________________________________________________*/
+.Testimonials{
+  width: 100%;
+  color: #0d2c35;
+  background-color: #2dd377;
+  box-shadow: inset 0px 1px 3px 1px #260b04d1;
+  border-radius: 3px;
+  background-image: url('./img/overl.png');
+  background-size: contain;
+  background-blend-mode: multiply;
+}
+  .Testimonials-heading {
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .testimonials-main{
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    box-sizing: border-box;
+  }
+    .testimonial{
+      width: 100%;
+      flex: 1 0 100%;
+      scroll-snap-align: start;
+      padding: .75rem 1.5rem;
+      box-sizing: border-box;
+    }
+      .testimonial-text {
+        text-align: justify;
+        font-size: .9rem;
+      }
+      .testimonials-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 .5rem;
+      }
+      .testimonials-details-text {
+        line-height: .7rem;
+        font-size: .8rem;
+      }
+        .testimonials-details-name {
+          font-weight: 900;
+        }
+      .testimonials-img {
+        width: 3rem;
+        border-radius: 1.5rem;
+      }
+/* Testimonials _______________________________________________________*/
