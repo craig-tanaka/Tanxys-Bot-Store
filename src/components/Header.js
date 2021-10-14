@@ -1,6 +1,9 @@
+import banner from '../img/banner.jpg';
+
 const Header = () => {
     return (
         <header>
+            <img src={ banner } alt="trading" className="banner-img"/>
             <div className="">
                 <h2>Get Yourself The Best Bots in The Bizz</h2>
                 <p>With our bots you don't have to spend every waking hour watching your charts
