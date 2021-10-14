@@ -46,4 +46,12 @@ nav{
 .banner-img {
   max-width: 100%;
 }
-
+.banner-text {
+  padding: 0 .5rem;
+}
+  .banner-text-heading {
+    text-align: center;
+  }
+  .banner-text-body {
+    text-align: justify;
+  }
