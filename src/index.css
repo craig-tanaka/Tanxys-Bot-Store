@@ -17,8 +17,9 @@ html, body{
 nav{
   font-family: Halant, serif;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 4rem;
+  padding: 1rem 1rem;
 }
 .signup-btn{
   font-family: 'Nunito Sans', sans-serif;
