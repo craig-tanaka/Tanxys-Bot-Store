@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Testimonials from './components/testimonials';
+import OurBots from './components/OurBots';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Nav/>
       <Header />
       <Testimonials/>
+      <OurBots/>
     </div>
   );
 }
